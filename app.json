@@ -3,7 +3,6 @@
 	"website": "https://github.com/adctea/tavy",
 	"repository": "https://github.com/adctea/tavy",
 	"env": {
-		
 		"AUTH": {
 			"description": "Optional HTTP authentication in the form user:password",
 			"required": false
