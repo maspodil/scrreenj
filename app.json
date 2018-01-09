@@ -7,6 +7,6 @@
 		"AUTH": {
 			"description": "Optional HTTP authentication in the form user:password",
 			"required": false
-		
-	}
+		}
+}
 }
