@@ -3,13 +3,10 @@
 	"website": "https://github.com/adctea/tavy",
 	"repository": "https://github.com/adctea/tavy",
 	"env": {
-		"TITLE": {
-			"description": "Optionally set the title of this instance (defaults to 'Cloud Torrent')",
-			"required": false
-		},
+		
 		"AUTH": {
 			"description": "Optional HTTP authentication in the form user:password",
 			"required": false
-		}
+		
 	}
 }
