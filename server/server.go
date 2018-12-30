@@ -117,7 +117,6 @@ func (s *Server) Run(version string) error {
 	//poll torrents and files
 	go func() {
 		for {
-			s.state.Lock()
 			s.state.Torrents = s.engine.GetTorrents()
 			s.state.Downloads = s.listFiles()
 			s.state.Unlock()
