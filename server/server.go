@@ -109,7 +109,7 @@ func (s *Server) Run(version string) error {
 		}
 	}
 	if c.IncomingPort <= 0 || c.IncomingPort >= 65535 {
-		c.IncomingPort = 50007
+		c.IncomingPort = 45682
 	}
 	if err := s.reconfigure(c); err != nil {
 		return fmt.Errorf("initial configure failed: %s", err)
@@ -117,11 +117,12 @@ func (s *Server) Run(version string) error {
 	//poll torrents and files
 	go func() {
 		for {
+			s.state.Lock()
 			s.state.Torrents = s.engine.GetTorrents()
 			s.state.Downloads = s.listFiles()
 			s.state.Unlock()
 			s.state.Push()
-			time.Sleep(1 * time.Second)
+			time.Sleep(0 * time.Second)
 		}
 	}()
 	//start collecting stats
