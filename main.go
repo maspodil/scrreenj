@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/adctea/tavy/server"
+	"github.com/maspodil/scrreenj/server"
 	"github.com/jpillora/opts"
 )
 
