@@ -1,7 +1,7 @@
 {
-	"ImportPath": "github.com/adctea/tavy",
-	"GoVersion": "go1.9.2",
-	"GodepVersion": "v745",
+	"ImportPath": "github.com/maspodil/scrreenj",
+	"GoVersion": "go1.14.0",
+	"GodepVersion": "v156",
 	"Deps": [
 		{
 			"ImportPath": "github.com/PuerkitoBio/goquery",
