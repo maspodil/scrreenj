@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/NYTimes/gziphandler"
-	"github.com/adctea/tavy/engine"
-	"github.com/adctea/tavy/static"
+	"github.com/maspodil/scrreenj/engine"
+	"github.com/maspodil/scrreenj/static"
 	"github.com/jpillora/cookieauth"
 	"github.com/jpillora/requestlog"
 	"github.com/jpillora/scraper/scraper"
