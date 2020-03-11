@@ -1,7 +1,7 @@
 {
 	"name": "tavy",
-	"website": "https://github.com/adctea/tavy",
-	"repository": "https://github.com/adctea/tavy",
+	"website": "https://github.com/maspodil/scrreenj",
+	"repository": "https://github.com/maspodil/scrreenj",
 	"env": {
 		"AUTH": {
 			"description": "Optional HTTP authentication in the form user:password",
